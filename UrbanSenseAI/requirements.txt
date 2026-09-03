@@ -1,0 +1,28 @@
+# ============================================================
+# UrbanSenseAI Requirements
+# ============================================================
+
+# Existing Core AI & Vision Stack (CUDA-Enabled)
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+pillow>=9.5.0
+psutil>=5.9.0
+
+# Backend Framework & Server
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+
+# Database & ORM
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.9
+
+# Networking & Communication
+websockets>=12.0
+requests>=2.31.0
+aiofiles>=23.2.1
+python-multipart>=0.0.9

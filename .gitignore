@@ -1,0 +1,49 @@
+# Python Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python Cache & Bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environment Variables & Local Secrets
+.env
+**/.env
+!.env.example
+**/!.env.example
+
+# Runtime Media Dumps (keep sample files, exclude large runtime batch outputs)
+UrbanSenseAI/media/incidents/*.mp4
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.bak
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
